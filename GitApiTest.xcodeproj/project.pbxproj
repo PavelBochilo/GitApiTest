@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4062361A1F29D60800007828 /* BillabongW00-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 406236191F29D60800007828 /* BillabongW00-Regular.ttf */; };
+		4062361E1F29E23B00007828 /* GATTableRepoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4062361D1F29E23B00007828 /* GATTableRepoCell.m */; };
+		406236201F29E24800007828 /* GATTableRepoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4062361F1F29E24800007828 /* GATTableRepoCell.xib */; };
+		406236241F29E9C600007828 /* UIImageView+Rounded.m in Sources */ = {isa = PBXBuildFile; fileRef = 406236231F29E9C600007828 /* UIImageView+Rounded.m */; };
 		40E52E801F28B99B00529EBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E52E7F1F28B99B00529EBE /* main.m */; };
 		40E52E831F28B99B00529EBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E52E821F28B99B00529EBE /* AppDelegate.m */; };
-		40E52E861F28B99B00529EBE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E52E851F28B99B00529EBE /* ViewController.m */; };
 		40E52E891F28B99B00529EBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40E52E871F28B99B00529EBE /* Main.storyboard */; };
 		40E52E8B1F28B99B00529EBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40E52E8A1F28B99B00529EBE /* Assets.xcassets */; };
 		40E52E8E1F28B99B00529EBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40E52E8C1F28B99B00529EBE /* LaunchScreen.storyboard */; };
 		40E52E991F28B99B00529EBE /* GitApiTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E52E981F28B99B00529EBE /* GitApiTestTests.m */; };
 		40E52EA41F28B99B00529EBE /* GitApiTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E52EA31F28B99B00529EBE /* GitApiTestUITests.m */; };
+		40E52EB31F28BC5A00529EBE /* GATLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E52EB21F28BC5A00529EBE /* GATLoginVC.m */; };
+		40E52EBC1F28D55200529EBE /* UrlCredentials.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E52EBB1F28D55200529EBE /* UrlCredentials.m */; };
+		40E52EBF1F28D5AA00529EBE /* GATWebServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E52EBE1F28D5AA00529EBE /* GATWebServiceManager.m */; };
+		40E52EC31F28DFFF00529EBE /* GATTableReposVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E52EC21F28DFFF00529EBE /* GATTableReposVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +42,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		406236191F29D60800007828 /* BillabongW00-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BillabongW00-Regular.ttf"; sourceTree = "<group>"; };
+		4062361C1F29E23B00007828 /* GATTableRepoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GATTableRepoCell.h; sourceTree = "<group>"; };
+		4062361D1F29E23B00007828 /* GATTableRepoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GATTableRepoCell.m; sourceTree = "<group>"; };
+		4062361F1F29E24800007828 /* GATTableRepoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GATTableRepoCell.xib; sourceTree = "<group>"; };
+		406236221F29E9C600007828 /* UIImageView+Rounded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Rounded.h"; sourceTree = "<group>"; };
+		406236231F29E9C600007828 /* UIImageView+Rounded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Rounded.m"; sourceTree = "<group>"; };
 		40E52E7B1F28B99B00529EBE /* GitApiTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitApiTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40E52E7F1F28B99B00529EBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		40E52E811F28B99B00529EBE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		40E52E821F28B99B00529EBE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		40E52E841F28B99B00529EBE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		40E52E851F28B99B00529EBE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		40E52E881F28B99B00529EBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		40E52E8A1F28B99B00529EBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40E52E8D1F28B99B00529EBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +62,15 @@
 		40E52E9F1F28B99B00529EBE /* GitApiTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitApiTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40E52EA31F28B99B00529EBE /* GitApiTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitApiTestUITests.m; sourceTree = "<group>"; };
 		40E52EA51F28B99B00529EBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40E52EB11F28BC5A00529EBE /* GATLoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GATLoginVC.h; sourceTree = "<group>"; };
+		40E52EB21F28BC5A00529EBE /* GATLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GATLoginVC.m; sourceTree = "<group>"; };
+		40E52EBA1F28D55200529EBE /* UrlCredentials.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UrlCredentials.h; sourceTree = "<group>"; };
+		40E52EBB1F28D55200529EBE /* UrlCredentials.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UrlCredentials.m; sourceTree = "<group>"; };
+		40E52EBD1F28D5AA00529EBE /* GATWebServiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GATWebServiceManager.h; sourceTree = "<group>"; };
+		40E52EBE1F28D5AA00529EBE /* GATWebServiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GATWebServiceManager.m; sourceTree = "<group>"; };
+		40E52EC01F28D7DF00529EBE /* PrefHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefHeader.pch; sourceTree = "<group>"; };
+		40E52EC11F28DFFF00529EBE /* GATTableReposVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GATTableReposVC.h; sourceTree = "<group>"; };
+		40E52EC21F28DFFF00529EBE /* GATTableReposVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GATTableReposVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +98,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4062361B1F29E21300007828 /* XIBModels */ = {
+			isa = PBXGroup;
+			children = (
+				4062361C1F29E23B00007828 /* GATTableRepoCell.h */,
+				4062361D1F29E23B00007828 /* GATTableRepoCell.m */,
+				4062361F1F29E24800007828 /* GATTableRepoCell.xib */,
+			);
+			name = XIBModels;
+			sourceTree = "<group>";
+		};
+		406236211F29E9A000007828 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				406236221F29E9C600007828 /* UIImageView+Rounded.h */,
+				406236231F29E9C600007828 /* UIImageView+Rounded.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
 		40E52E721F28B99B00529EBE = {
 			isa = PBXGroup;
 			children = (
@@ -101,14 +140,13 @@
 		40E52E7D1F28B99B00529EBE /* GitApiTest */ = {
 			isa = PBXGroup;
 			children = (
-				40E52E811F28B99B00529EBE /* AppDelegate.h */,
-				40E52E821F28B99B00529EBE /* AppDelegate.m */,
-				40E52E841F28B99B00529EBE /* ViewController.h */,
-				40E52E851F28B99B00529EBE /* ViewController.m */,
+				406236211F29E9A000007828 /* Extensions */,
+				4062361B1F29E21300007828 /* XIBModels */,
+				40E52EB91F28D49D00529EBE /* Memento */,
+				40E52EB81F28D49200529EBE /* WebServiceManager */,
+				40E52EB71F28D46500529EBE /* AppDelegate */,
+				40E52EB51F28D37E00529EBE /* VCModules */,
 				40E52E871F28B99B00529EBE /* Main.storyboard */,
-				40E52E8A1F28B99B00529EBE /* Assets.xcassets */,
-				40E52E8C1F28B99B00529EBE /* LaunchScreen.storyboard */,
-				40E52E8F1F28B99B00529EBE /* Info.plist */,
 				40E52E7E1F28B99B00529EBE /* Supporting Files */,
 			);
 			path = GitApiTest;
@@ -117,7 +155,12 @@
 		40E52E7E1F28B99B00529EBE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				406236191F29D60800007828 /* BillabongW00-Regular.ttf */,
+				40E52E8A1F28B99B00529EBE /* Assets.xcassets */,
+				40E52E8C1F28B99B00529EBE /* LaunchScreen.storyboard */,
+				40E52E8F1F28B99B00529EBE /* Info.plist */,
 				40E52E7F1F28B99B00529EBE /* main.m */,
+				40E52EC01F28D7DF00529EBE /* PrefHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +181,60 @@
 				40E52EA51F28B99B00529EBE /* Info.plist */,
 			);
 			path = GitApiTestUITests;
+			sourceTree = "<group>";
+		};
+		40E52EB51F28D37E00529EBE /* VCModules */ = {
+			isa = PBXGroup;
+			children = (
+				40E52EC41F28E00900529EBE /* GATTableReposVC */,
+				40E52EB61F28D38F00529EBE /* LogonVC */,
+			);
+			name = VCModules;
+			sourceTree = "<group>";
+		};
+		40E52EB61F28D38F00529EBE /* LogonVC */ = {
+			isa = PBXGroup;
+			children = (
+				40E52EB11F28BC5A00529EBE /* GATLoginVC.h */,
+				40E52EB21F28BC5A00529EBE /* GATLoginVC.m */,
+			);
+			name = LogonVC;
+			sourceTree = "<group>";
+		};
+		40E52EB71F28D46500529EBE /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				40E52E811F28B99B00529EBE /* AppDelegate.h */,
+				40E52E821F28B99B00529EBE /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		40E52EB81F28D49200529EBE /* WebServiceManager */ = {
+			isa = PBXGroup;
+			children = (
+				40E52EBD1F28D5AA00529EBE /* GATWebServiceManager.h */,
+				40E52EBE1F28D5AA00529EBE /* GATWebServiceManager.m */,
+			);
+			name = WebServiceManager;
+			sourceTree = "<group>";
+		};
+		40E52EB91F28D49D00529EBE /* Memento */ = {
+			isa = PBXGroup;
+			children = (
+				40E52EBA1F28D55200529EBE /* UrlCredentials.h */,
+				40E52EBB1F28D55200529EBE /* UrlCredentials.m */,
+			);
+			name = Memento;
+			sourceTree = "<group>";
+		};
+		40E52EC41F28E00900529EBE /* GATTableReposVC */ = {
+			isa = PBXGroup;
+			children = (
+				40E52EC11F28DFFF00529EBE /* GATTableReposVC.h */,
+				40E52EC21F28DFFF00529EBE /* GATTableReposVC.m */,
+			);
+			name = GATTableReposVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +343,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				406236201F29E24800007828 /* GATTableRepoCell.xib in Resources */,
+				4062361A1F29D60800007828 /* BillabongW00-Regular.ttf in Resources */,
 				40E52E8E1F28B99B00529EBE /* LaunchScreen.storyboard in Resources */,
 				40E52E8B1F28B99B00529EBE /* Assets.xcassets in Resources */,
 				40E52E891F28B99B00529EBE /* Main.storyboard in Resources */,
@@ -273,7 +372,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40E52E861F28B99B00529EBE /* ViewController.m in Sources */,
+				406236241F29E9C600007828 /* UIImageView+Rounded.m in Sources */,
+				40E52EBC1F28D55200529EBE /* UrlCredentials.m in Sources */,
+				40E52EBF1F28D5AA00529EBE /* GATWebServiceManager.m in Sources */,
+				4062361E1F29E23B00007828 /* GATTableRepoCell.m in Sources */,
+				40E52EC31F28DFFF00529EBE /* GATTableReposVC.m in Sources */,
+				40E52EB31F28BC5A00529EBE /* GATLoginVC.m in Sources */,
 				40E52E831F28B99B00529EBE /* AppDelegate.m in Sources */,
 				40E52E801F28B99B00529EBE /* main.m in Sources */,
 			);
@@ -509,6 +613,7 @@
 				40E52EAA1F28B99B00529EBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		40E52EAB1F28B99B00529EBE /* Build configuration list for PBXNativeTarget "GitApiTestTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +622,7 @@
 				40E52EAD1F28B99B00529EBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		40E52EAE1F28B99B00529EBE /* Build configuration list for PBXNativeTarget "GitApiTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +631,7 @@
 				40E52EB01F28B99B00529EBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
